@@ -1,12 +1,24 @@
+.container > h2 {
+    font-size: 7.5vw;
+    text-transform: uppercase;
+}
+.container > h3 {
+    font-size: 3.5vw;
+}
+
 #logo-img {
-	background: url('../img/favicon.png');
+	background: url('../img/logo.png');
 	width: 100px;
 	height: 100px;
 	margin: 0px 15px 0px 0;
 }
 
 .intro-2 {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+    background: url("../img/portada1.jpg")no-repeat top center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -15,13 +27,13 @@
 }
 
 .top-nav-collapse {
-    background-color: #4285F4;
+    background-color: #8B2533;
     
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #4285F4;
+        background-color: #8B2533;
     }
 }
 
