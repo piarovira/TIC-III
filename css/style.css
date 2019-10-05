@@ -6,14 +6,14 @@ header,
 }
 
 /* navbar */
-nav {
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
 #logo-img {
 	background: url('../img/logo.png');
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	margin: 0px 15px 0px 0;
 }
 
@@ -27,6 +27,13 @@ nav {
 
 .top-nav-collapse{
     background-color: #8B2533;
+}
+
+.top-nav-collapse #logo-img{
+    background: url('../img/logo-sm.png');
+	width: 50px;
+	height: 50px;
+	margin: 0px 15px 0px 0;
 }
 
 .top-nav-collapse #submenu {
@@ -147,3 +154,7 @@ nav {
     transform: rotate(-135deg);
 }
 
+/* footer */
+footer hr {
+    background-color: #8B2533;
+}

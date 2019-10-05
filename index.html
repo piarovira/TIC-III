@@ -28,7 +28,6 @@
 
   <!--Main Navigation-->
   <header>
-
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
           <a class="navbar-brand" href="index.html">
               <div id="logo-img" alt="Logo image"></div>
@@ -41,19 +40,21 @@
                   <li class="nav-item active">
                       <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Quiénes somos</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Raza Brangus</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Exposiciones</a>
+                  <li class="nav-item dropdown mega-dropdown">
+                    <a class="nav-link arrow-r" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="false" aria-expanded="false">Quiénes somos
+                      <i class="fas fa-angle-down rotate-icon"></i>
+                    </a>
+                    <div id="submenu" class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">La raza</a>
+                      <a class="dropdown-item" href="#">Comisión directiva</a>
+                      <a class="dropdown-item" href="#">Socios</a>
+                    </div>
                   </li>
                   <li class="nav-item dropdown mega-dropdown">
                       <a class="nav-link arrow-r" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="false" aria-expanded="false">
-                        <i></i>Reglamentos<i class="fas fa-angle-down rotate-icon"></i>
+                        aria-haspopup="false" aria-expanded="false">Reglamentos
+                        <i class="fas fa-angle-down rotate-icon"></i>
                       </a>
                       <div id="submenu" class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">De la raza Brangus</a>
@@ -61,15 +62,26 @@
                         <a class="dropdown-item" href="#">De la prueba de comportamiento</a>
                         <a class="dropdown-item" href="#">Del premio cabaña del año</a>
                       </div>
-                    </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Actividades</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Planillas Deps</a>
+                  <li class="nav-item dropdown mega-dropdown">
+                    <a class="nav-link arrow-r" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="false" aria-expanded="false">Eventos
+                      <i class="fas fa-angle-down rotate-icon"></i>
+                    </a>
+                    <div id="submenu" class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Exposiciones</a>
+                      <a class="dropdown-item" href="#">Remates</a>
+                    </div>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Artículos de interés</a>
+                  <li class="nav-item dropdown mega-dropdown">
+                    <a class="nav-link arrow-r" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="false" aria-expanded="false">Documentos
+                      <i class="fas fa-angle-down rotate-icon"></i>
+                    </a>
+                    <div id="submenu" class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Planillas Deps</a>
+                      <a class="dropdown-item" href="#">Artículos de interés</a>
+                    </div>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Galería</a>
@@ -113,6 +125,121 @@
 
   </main>
   <!--Main Layout-->
+
+  <!-- Footer -->
+  <footer class="page-footer font-small unique-color-dark">
+
+    <div style="background-color: #8B2533;">
+      <div class="container">
+
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">¡Ponete en contacto con nosotros!</h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+            <!-- Facebook -->
+            <a class="fb-ic" href="https://www.facebook.com/brangusuruguay/" target = "_blank">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic" href="https://twitter.com/brangusuruguay?lang=es" target="_blank">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic" href="https://www.instagram.com/brangusuruguay/?hl=es-la" target="_blank">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+      </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div class=" links container text-center text-md-left mt-5">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">MDBootstrap</a>
+          </p>
+          <p>
+            <a href="#!">MDWordPress</a>
+          </p>
+          <p>
+            <a href="#!">BrandFlow</a>
+          </p>
+          <p>
+            <a href="#!">Bootstrap Angular</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; ">
+          <p>
+            <i class="fas fa-home mr-3"></i>Av. Uruguay 864, piso 2, esc. 6. Montevideo, Uruguay</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <p>
+            <a href="tel:2902 0484">
+              <i class="fas fa-phone mr-3"></i><span>2902 0484 int. 231</span>
+            </a>
+          </p>
+          <p>
+            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Mapa</h6>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <a href="https://www.google.com/maps/place/Av.+Uruguay+864,+11100+Montevideo,+Departamento+de+Montevideo/@-34.9049102,-56.2023009,16.29z/data=!4m5!3m4!1s0x959f802bf7f5c85b:0xbb21382328f0ac8!8m2!3d-34.9035909!4d-56.1980245" target="_blank">
+            <div id="map-tile">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5359.724213477975!2d-56.20230094199984!3d-34.90491016484799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802bf7f5c85b%3A0xbb21382328f0ac8!2sAv.%20Uruguay%20864%2C%2011100%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1570246487944!5m2!1ses!2suy"></iframe>
+            </div>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright: P&P</div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
