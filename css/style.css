@@ -166,3 +166,29 @@ body {
 footer hr {
     background-color: #8B2533;
 }
+/* footer */
+
+/* contact */
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.md-form textarea.md-textarea:focus, .md-form input:focus {
+    border-bottom: 1px solid #8B2533 !important;
+    box-shadow: 0 1px 0 0 #8B2533 !important;
+}
+
+.md-form textarea.md-textarea:focus+label, .md-form input:focus+label {
+    color: #8B2533 !important;
+}
+/* contact */
