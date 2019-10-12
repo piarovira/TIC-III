@@ -195,3 +195,15 @@ footer hr {
     color: #8B2533 !important;
 }
 /* contact */
+
+#laraza h5 {
+    color: #8B2533;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px !important;
+    margin-right: 10px;
+}  
+
+#laraza .card {
+    text-align: left;
+}
