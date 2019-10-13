@@ -4,6 +4,10 @@ $(document).ready(function () {
         $('.animated-icon1').toggleClass('open');
     });
 
+    $(".card-header").click(function () {
+        $(".rotate").toggleClass("down");
+    })
+
 });
 
 
