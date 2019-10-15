@@ -73,6 +73,7 @@ body {
         display: contents;
     }
 }
+/*  navbar  */
 
 /* Foto */
 .container > h2 {
@@ -164,6 +165,7 @@ body {
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
+/* toggle menu button */
 
 /* footer */
 footer hr {
@@ -208,15 +210,20 @@ footer hr {
 #laraza .card {
     text-align: left;
 }
-/* la raza */
 
-.rotate1, .rotate2, .rotate3, .rotate4, .rotate5, .rotate6, .rotate7, .rotate8, .rotate9, .rotate10, .rotate11, .rotate12 {
+.rotate1, .rotate2, .rotate3, .rotate4, 
+.rotate5, .rotate6, .rotate7, .rotate8, 
+.rotate9, .rotate10, .rotate11, .rotate12 {
     -moz-transition: all .3s linear;
     -webkit-transition: all .3s linear;
     transition: all .3s linear;
 }
-.rotate1.down, .rotate2.down, .rotate3.down, .rotate4.down, .rotate5.down, .rotate6.down, .rotate7.down, .rotate8.down, .rotate9.down, .rotate10.down, .rotate11.down, .rotate12.down {
+
+.rotate1.down, .rotate2.down, .rotate3.down, .rotate4.down, 
+.rotate5.down, .rotate6.down, .rotate7.down, .rotate8.down, 
+.rotate9.down, .rotate10.down, .rotate11.down, .rotate12.down {
     -moz-transform:rotate(180deg);
     -webkit-transform:rotate(180deg);
     transform:rotate(180deg);
 }
+/* la raza */
