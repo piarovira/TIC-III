@@ -40,6 +40,8 @@ $(document).ready(function () {
     $("#card12").click(function () {
         $(".rotate12").toggleClass("down");
     })
+
+    $('#example').DataTable();
 });
 
 
