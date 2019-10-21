@@ -279,4 +279,8 @@ table.dataTable thead .sorting:after, table.dataTable thead .sorting:before, tab
     bottom: .5em;
 }
 
+.pagination .page-item.active .page-link {
+    background-color: #8B2533 !important;
+}
+
 /* tabla socios  */
