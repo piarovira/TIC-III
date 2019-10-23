@@ -284,3 +284,22 @@ table.dataTable thead .sorting:after, table.dataTable thead .sorting:before, tab
 }
 
 /* tabla socios  */
+
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: 0px;
+}
+
+/* The colour of the indicators */
+
+.blog .carousel-indicators li {
+    background: rgba(134, 87, 93, 0.5);;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+    background: rgba(139, 37, 51, 0.7);
+}

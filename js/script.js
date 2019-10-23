@@ -42,6 +42,10 @@ $(document).ready(function () {
     })
 
     $('#example').DataTable();
+
+    $('#blogCarousel').carousel({
+        interval: 1000
+    });
 });
 
 
