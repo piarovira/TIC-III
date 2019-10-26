@@ -9,11 +9,13 @@ body {
 }
 
 #nav {
-    padding-right: 0cm;
+    padding-right: 0cm !important;
+    
 }
 
 .navbar-nav {
-    font-weight: 400;;
+    font-weight: 400;
+    padding-right: 0cm !important;
 }
 
 #logo-img {
@@ -34,6 +36,7 @@ body {
 
 .top-nav-collapse {
     background-color: #8B2533;
+    padding-right: 0cm !important;
 }
 
 .top-nav-collapse #logo-img {
