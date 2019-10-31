@@ -299,7 +299,7 @@ table.dataTable thead .sorting:after, table.dataTable thead .sorting:before, tab
 
 /* The colour of the indicators */
 
-/* .blog .carousel-indicators li {
+.blog .carousel-indicators li {
     background: rgba(134, 87, 93, 0.5);
     ;
     border-radius: 50%;
@@ -309,7 +309,7 @@ table.dataTable thead .sorting:after, table.dataTable thead .sorting:before, tab
 
 .blog .carousel-indicators .active {
     background: rgba(139, 37, 51, 0.7);
-} */
+}
 
 /* .carousel-indicators {
     align-content: center !important;

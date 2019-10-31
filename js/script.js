@@ -46,6 +46,7 @@ $(document).ready(function () {
     $('#blogCarousel').carousel({
         interval: 1000
     });
+
 });
 
 
