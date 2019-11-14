@@ -426,3 +426,7 @@ figure {
     top: 5px;
 }
 /* back to top */
+
+#sponsors a:hover {
+    cursor: pointer;
+}
