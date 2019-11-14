@@ -47,6 +47,10 @@ $(document).ready(function () {
         interval: 1000
     });
 
+    $(function () {
+        $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
+
 });
 
 
