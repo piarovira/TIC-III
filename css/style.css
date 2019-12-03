@@ -175,6 +175,18 @@ body {
 
 /* toggle menu button */
 
+/* sponsors */
+.sponsors {
+    filter: grayscale(1);
+}
+
+.sponsors:hover {
+    filter: none;
+    transition-duration: .8s;
+    cursor: pointer;
+}
+/* sponsors */
+
 /* footer */
 
 footer hr {
@@ -432,7 +444,3 @@ figure {
 }
 
 /* back to top */
-
-#sponsors a:hover {
-    cursor: pointer;
-}
